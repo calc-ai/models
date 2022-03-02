@@ -1,0 +1,31 @@
+{
+  "best_metric": 0.3886149823665619,
+  "best_model_checkpoint": "randintbatch64_randint_0815/checkpoint-100",
+  "epoch": 1.2048192771084336,
+  "global_step": 100,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.2,
+      "learning_rate": 1.25e-05,
+      "loss": 3.6976,
+      "step": 100
+    },
+    {
+      "epoch": 1.2,
+      "eval_accuracy": 0.011764705882352941,
+      "eval_loss": 0.3886149823665619,
+      "eval_runtime": 5.4329,
+      "eval_samples_per_second": 31.291,
+      "eval_steps_per_second": 1.104,
+      "step": 100
+    }
+  ],
+  "max_steps": 10000,
+  "num_train_epochs": 121,
+  "total_flos": 847606855680000.0,
+  "trial_name": null,
+  "trial_params": null
+}
